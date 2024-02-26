@@ -25,6 +25,16 @@ int main()
     printf("--Result:\n>> %d <<\n", a/b);
     }
 
+    else if(strcmp(operator,"+")==0)
+    {
+    printf("--Result:\n>> %d <<\n", a+b);
+    }
+
+    else if(strcmp(operator,"-")==0)
+    {
+    printf("--Result:\n>> %d <<\n", a-b);
+    }
+
     return 0;
 
 }
